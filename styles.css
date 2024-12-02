@@ -1,0 +1,37 @@
+/* General styling for all boxes */
+.box {
+    margin: 20px;
+    padding: 15px;
+    border: 5px solid black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+  }
+  
+  /* Box 1 (content-box) */
+  .box-1 {
+    background-color: crimson;
+    box-sizing: content-box; /* Default */
+    width: 200px;
+    height: 100px;
+  }
+  
+  /* Box 2 (border-box) */
+  .box-2 {
+    background-color: royalblue;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+  }
+  
+  /* Box 3 (content-box with unique styles) */
+  .box-3 {
+    background-color: darkgreen;
+    box-sizing: content-box;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    margin: 30px;
+  }
+  
